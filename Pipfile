@@ -8,6 +8,7 @@ flask = "*"
 python-dotenv = "*"
 djlint = "*"
 pytest = "*"
+gunicorn = "*"
 
 [dev-packages]
 
