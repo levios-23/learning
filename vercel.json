@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "./api/urlshort/urlshort.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/urlshort/urlshort.py"
+        }
+    ]
+}
